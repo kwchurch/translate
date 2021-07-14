@@ -1,6 +1,6 @@
 # translate
 
-Super simple example of pre-trained translation models from <a href="https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md">fairseq</a>
+Super-simple example of pre-trained translation models from <a href="https://github.com/pytorch/fairseq/blob/master/examples/translation/README.md">fairseq</a>
 
 Install:
    ```pip install -r requirements.txt```
