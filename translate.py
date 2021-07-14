@@ -5,7 +5,7 @@ import fairseq,torch,sys,argparse
 # Usage: echo 'Hello World' | python translate.py -m transformer.wmt19.en-de
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-m", "--model_string", help="choose help to see a list of possibilities", required=True)
+parser.add_argument("-m", "--model_string", help="if you provide an unknown model, you will see a list of known models", required=True)
 parser.add_argument("-C", "--use_CUDA", type=int, help="use CUDA (off by default)", default=0)
 args = parser.parse_args()
 
